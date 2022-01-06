@@ -1,0 +1,28 @@
+.radioButtons {
+  margin: 0rem 0px 2rem;
+  display: flex;
+
+  .radioButton {
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    // background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 10px;
+    color: grey;
+    &:first-child {
+      margin-right: 1rem;
+    }
+
+    span {
+      font-size: 13px;
+      margin-left: 6px;
+    }
+  }
+}
+
+.highlighted {
+  background-color: rgba(55, 174, 225, 0.2) !important;
+  color: #37aee1 !important;
+}

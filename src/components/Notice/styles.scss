@@ -1,0 +1,24 @@
+.notice {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 45vw;
+  margin-top: 8vh;
+  padding: 1rem 1.5rem;
+  box-shadow: 1px 1px 17px 3px rgba(0, 0, 0, 0.1);
+  // border: 2px solid blue;
+
+  .noticeItem {
+    display: flex;
+    align-items: center;
+    // min-width: 80px;
+    // border: 3px solid pink;
+    margin: 1rem 0px;
+
+    span {
+      font-size: 14px;
+      margin-left: 8px;
+      color: #a7a8aa;
+    }
+  }
+}
